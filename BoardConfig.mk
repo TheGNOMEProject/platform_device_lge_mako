@@ -14,6 +14,11 @@
 # limitations under the License.
 #
 
+#inline kernel building
+TARGET_KERNEL_SOURCE := kernel/lge/mako
+TARGET_KERNEL_CONFIG := pa_mako_defconfig
+TARGET_GCC_VERSION_ARM := 4.8
+
 TARGET_GLOBAL_CFLAGS += -mfpu=neon -mfloat-abi=softfp
 TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
 TARGET_CPU_ABI := armeabi-v7a
@@ -44,7 +49,6 @@ TARGET_BOARD_PLATFORM := msm8960
 TARGET_BOOTLOADER_BOARD_NAME := MAKO
 TARGET_BOOTLOADER_NAME=mako
 TARGET_BOARD_INFO_FILE := device/lge/mako/board-info.txt
-TARGET_KERNEL_CONFIG := pa_mako_defconfig
 
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/mako/bluetooth
 
