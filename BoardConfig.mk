@@ -131,6 +131,6 @@ OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 HAVE_ADRENO_SOURCE:= false
 
 TARGET_GCC_VERSION_ARM := 4.8
-TARGET_GCC_VERSION_AND := 4.7
+TARGET_GCC_VERSION_AND := 4.8
 
 -include vendor/lge/mako/BoardConfigVendor.mk
