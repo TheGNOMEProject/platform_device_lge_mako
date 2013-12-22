@@ -30,7 +30,8 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 PRODUCT_PACKAGES := \
 	lights.msm8960 \
-	Xposed
+	Xposed \
+	PerformanceControl
 
 PRODUCT_PACKAGES += \
     charger_res_images \
