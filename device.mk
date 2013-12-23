@@ -96,7 +96,7 @@ PRODUCT_COPY_FILES += \
 
 # Bootanimation
 PRODUCT_COPY_FILES += \
-  vendor/bootanimation/bootanimation.zip:system/media/bootanimation.zip
+  	prebuilts/bootanimation/bootanimation.zip:system/media/bootanimation.zip
 
 # NFC packages
 PRODUCT_PACKAGES += \
