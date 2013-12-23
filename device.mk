@@ -95,7 +95,7 @@ PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.hardware.bluetooth_le.xml:system/etc/permissions/android.hardware.bluetooth_le.xml
 
 # Bootanimation
-  PRODUCT_COPY_FILES += \
+PRODUCT_COPY_FILES += \
   vendor/bootanimation/bootanimation.zip:system/media/bootanimation.zip
 
 # NFC packages
