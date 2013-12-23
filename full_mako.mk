@@ -28,7 +28,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES := device/lge/mako/apns-full-conf.xml:system/etc/apns-conf.xml
 
 # Add Bootanimation
-PRODUCT_COPY_FILES += vendor/bootanimation/bootanimation.zip:system/media/bootanimation.zip
+PRODUCT_COPY_FILES := vendor/bootanimation/bootanimation.zip:system/media/bootanimation.zip
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
