@@ -16,7 +16,7 @@
 
 #inline kernel building
 TARGET_KERNEL_SOURCE := kernel/lge/mako
-TARGET_KERNEL_CONFIG := gnome_mako_defconfig
+TARGET_KERNEL_CONFIG := gnome_defconfig
 
 TARGET_GCC_VERSION_ARM := 4.8
 TARGET_GCC_VERSION_AND := 4.8
